@@ -1,0 +1,28 @@
+.Reviews {
+    display: grid;
+    grid-template-columns: repeat(3,50vw);
+    grid-template-rows: 1, 200px;
+}
+
+#review1 {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 150px;
+    width: 400px;
+    background-color: rgb(128, 137, 35);
+}
+#review2{
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 100px;
+    width: 400px;
+    background-color: rgb(128, 137, 35);
+}
+
+#review3{
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: 200px;
+    width: 400px;
+    background-color: rgb(128, 137, 35);
+}

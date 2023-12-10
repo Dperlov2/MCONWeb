@@ -1,0 +1,21 @@
+*{
+    font-size: x-large;
+}
+.Review {
+    display: grid;
+    grid-template-columns: repeat(4 ,25vw);
+    
+}
+
+#review1{
+    grid-column: 1;
+}
+#review2{
+    grid-column: 2;
+}
+#review {
+    grid-column: 3;
+}
+#review {
+    grid-column: 4;
+}

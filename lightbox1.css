@@ -1,0 +1,74 @@
+#lightBox {
+  margin-right: 0p;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-left: 200px;
+  width: 75vw;
+  border-style: solid;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color:rgba(171, 117, 23, 0.98);
+  max-height: 300px;
+  max-width: 100vw;
+}
+
+#lbTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+#lbContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  width: calc(100% - 40px); 
+  overflow: hidden;
+  border: 1px solid #ccc; 
+  margin-top: 10px; 
+}
+
+#lbImages {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin: 10px;
+}
+
+
+#lbImages img {
+  max-width: 150px;
+  height: auto;
+}
+
+
+#lbPlay,
+#lbPrev,
+#lbNext {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+  margin: 5px;
+}
+
+#lbPrev {
+  left: 0px; 
+  margin-top: 90px;
+}
+
+#lbNext {
+  right: 0px; 
+  margin-top: 90px;
+}
+#lbPlay {
+  margin-top: 90px;
+}

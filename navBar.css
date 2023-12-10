@@ -1,0 +1,15 @@
+.Nav { 
+    display: flex;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    size: 250%;
+    background-color: rgba(219, 138, 38, 0.601);
+    border-radius: 30px;
+    transition: width 1s;
+  }
+.Nav a{
+    
+    text-decoration: none;
+    color:aliceblue;
+}

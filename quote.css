@@ -1,0 +1,90 @@
+*{
+    color: rgba(255, 255, 255, 0.7);
+}
+body{
+    background-image:"/Users/a14084/Downloads/wood-1853403_1280.jpg";
+
+}
+.body{
+    float: right;
+   display: grid;
+   grid-template-rows:repeat(10,50px);
+   grid-template-columns: repeat(2, 50vw);
+}
+    .in {
+        grid-columns: 2;
+        grid-row: 1/-1;
+    }
+#Name{
+    margin-left: 20 px;
+    grid-column: 2;
+    grid-row: 1;
+}
+#Phone{
+    grid-column: 2;
+    grid-row: 2;
+}
+#Address{
+    grid-column: 2;
+    grid-row: 3;
+}
+#State{    grid-column: 2;
+    grid-row: 4;
+}
+#City{
+    grid-column: 2;
+    grid-row: 5;
+}
+ #Zipcode{
+    
+    grid-column: 2;
+    grid-row: 6;
+}
+ #Address2{
+   
+    grid-column: 2;
+    grid-row: 7;
+}
+#Submit{
+    
+    grid-column: 2;
+    grid-row: 8;
+}
+ #step{
+   grid-columns:1 ;
+    height: "100px";
+}
+
+
+
+
+
+.Quote{
+    width: 30vw;
+    
+}
+.Quote{
+   
+    padding-top: 80px;
+}
+ h2{
+
+    height: 200px;
+    
+    text-align: center;
+    font-size: 200%;
+    padding-top: 50px;
+}
+h1{
+    font-size: 250%;
+    text-align: center;
+}
+
+
+img {
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding-bottom: 0px;
+}
